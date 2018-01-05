@@ -1,0 +1,10 @@
+/home/gward2489/workspace/csharp/exercises/dictionaries/bin/Debug/netcoreapp2.0/dictionaries.deps.json
+/home/gward2489/workspace/csharp/exercises/dictionaries/bin/Debug/netcoreapp2.0/dictionaries.runtimeconfig.json
+/home/gward2489/workspace/csharp/exercises/dictionaries/bin/Debug/netcoreapp2.0/dictionaries.runtimeconfig.dev.json
+/home/gward2489/workspace/csharp/exercises/dictionaries/bin/Debug/netcoreapp2.0/dictionaries.dll
+/home/gward2489/workspace/csharp/exercises/dictionaries/bin/Debug/netcoreapp2.0/dictionaries.pdb
+/home/gward2489/workspace/csharp/exercises/dictionaries/obj/Debug/netcoreapp2.0/dictionaries.csproj.CoreCompileInputs.cache
+/home/gward2489/workspace/csharp/exercises/dictionaries/obj/Debug/netcoreapp2.0/dictionaries.AssemblyInfoInputs.cache
+/home/gward2489/workspace/csharp/exercises/dictionaries/obj/Debug/netcoreapp2.0/dictionaries.AssemblyInfo.cs
+/home/gward2489/workspace/csharp/exercises/dictionaries/obj/Debug/netcoreapp2.0/dictionaries.dll
+/home/gward2489/workspace/csharp/exercises/dictionaries/obj/Debug/netcoreapp2.0/dictionaries.pdb
