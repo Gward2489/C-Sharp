@@ -1,0 +1,10 @@
+/home/gward2489/workspace/csharp/exercises/lightning-exercises/csharp-exercise-1/bin/Debug/netcoreapp2.0/csharp-exercise-1.deps.json
+/home/gward2489/workspace/csharp/exercises/lightning-exercises/csharp-exercise-1/bin/Debug/netcoreapp2.0/csharp-exercise-1.runtimeconfig.json
+/home/gward2489/workspace/csharp/exercises/lightning-exercises/csharp-exercise-1/bin/Debug/netcoreapp2.0/csharp-exercise-1.runtimeconfig.dev.json
+/home/gward2489/workspace/csharp/exercises/lightning-exercises/csharp-exercise-1/bin/Debug/netcoreapp2.0/csharp-exercise-1.dll
+/home/gward2489/workspace/csharp/exercises/lightning-exercises/csharp-exercise-1/bin/Debug/netcoreapp2.0/csharp-exercise-1.pdb
+/home/gward2489/workspace/csharp/exercises/lightning-exercises/csharp-exercise-1/obj/Debug/netcoreapp2.0/csharp-exercise-1.csproj.CoreCompileInputs.cache
+/home/gward2489/workspace/csharp/exercises/lightning-exercises/csharp-exercise-1/obj/Debug/netcoreapp2.0/csharp-exercise-1.AssemblyInfoInputs.cache
+/home/gward2489/workspace/csharp/exercises/lightning-exercises/csharp-exercise-1/obj/Debug/netcoreapp2.0/csharp-exercise-1.AssemblyInfo.cs
+/home/gward2489/workspace/csharp/exercises/lightning-exercises/csharp-exercise-1/obj/Debug/netcoreapp2.0/csharp-exercise-1.dll
+/home/gward2489/workspace/csharp/exercises/lightning-exercises/csharp-exercise-1/obj/Debug/netcoreapp2.0/csharp-exercise-1.pdb
