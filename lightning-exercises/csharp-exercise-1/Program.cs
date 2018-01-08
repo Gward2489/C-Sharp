@@ -23,6 +23,22 @@ namespace csharp_exercise_1
                 }
             }
 
+            // Given the following dictionary:
+            Dictionary<string, int> transports = new Dictionary<string, int>(){{"bicycle", 2}};
+
+            // Add some more items to the dictionary.
+            // Iterate over the dictionary and write 'A ____ has ____ wheels' to the console.
+            // Each transport should be on a new line.
+
+            transports.Add("car", 4);
+            transports.Add("plane", 0);
+            transports.Add("unicycle", 1);
+
+            foreach (KeyValuePair<string, int> vehicle in transports){
+                Console.WriteLine($"A {vehicle.Key} has {vehicle.Value} wheels");
+            }
+
+
         }
     }
 }
