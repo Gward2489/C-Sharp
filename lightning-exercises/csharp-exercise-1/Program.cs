@@ -33,12 +33,10 @@ namespace csharp_exercise_1
             transports.Add("car", 4);
             transports.Add("plane", 0);
             transports.Add("unicycle", 1);
-
+            Console.WriteLine("");
             foreach (KeyValuePair<string, int> vehicle in transports){
                 Console.WriteLine($"A {vehicle.Key} has {vehicle.Value} wheels");
             }
-
-
         }
     }
 }
