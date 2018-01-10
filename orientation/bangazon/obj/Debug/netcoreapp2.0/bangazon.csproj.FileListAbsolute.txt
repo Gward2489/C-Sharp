@@ -1,0 +1,10 @@
+/home/gward2489/workspace/csharp/exercises/orientation/bangazon/bin/Debug/netcoreapp2.0/bangazon.deps.json
+/home/gward2489/workspace/csharp/exercises/orientation/bangazon/bin/Debug/netcoreapp2.0/bangazon.runtimeconfig.json
+/home/gward2489/workspace/csharp/exercises/orientation/bangazon/bin/Debug/netcoreapp2.0/bangazon.runtimeconfig.dev.json
+/home/gward2489/workspace/csharp/exercises/orientation/bangazon/bin/Debug/netcoreapp2.0/bangazon.dll
+/home/gward2489/workspace/csharp/exercises/orientation/bangazon/bin/Debug/netcoreapp2.0/bangazon.pdb
+/home/gward2489/workspace/csharp/exercises/orientation/bangazon/obj/Debug/netcoreapp2.0/bangazon.csproj.CoreCompileInputs.cache
+/home/gward2489/workspace/csharp/exercises/orientation/bangazon/obj/Debug/netcoreapp2.0/bangazon.AssemblyInfoInputs.cache
+/home/gward2489/workspace/csharp/exercises/orientation/bangazon/obj/Debug/netcoreapp2.0/bangazon.AssemblyInfo.cs
+/home/gward2489/workspace/csharp/exercises/orientation/bangazon/obj/Debug/netcoreapp2.0/bangazon.dll
+/home/gward2489/workspace/csharp/exercises/orientation/bangazon/obj/Debug/netcoreapp2.0/bangazon.pdb
