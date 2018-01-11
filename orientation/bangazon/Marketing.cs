@@ -6,13 +6,11 @@ namespace bangazon
 {
     public class Marketing : Department
     {
-        public double budget {get; set;}
         public List<Dictionary<string, string>> marketingIdeas {get; set;} = new List<Dictionary<string, string>>();
 
 
-        public Marketing(double budgetAmt, string name, string supervisor, int employeeCount) : base(name, supervisor, employeeCount)
+        public Marketing(string name, string supervisor, int employeeCount) : base(name, supervisor, employeeCount)
         {
-            budget = budgetAmt;
         }
 
         public void addMarketingIdea(string ideaName, string idea){
@@ -21,6 +19,6 @@ namespace bangazon
             marketingIdeas.Add(marketingIdea);
         }
 
-
+        public override void SetBudget(double deptBudget) => this.budget = (deptBudget += 15000);
     }
 }

@@ -16,5 +16,8 @@ namespace bangazon
             script.Add(scriptName, scriptText);
             scripts.Add(script);
         }
+
+        public override void SetBudget(double deptBudget) => this.budget = deptBudget - (.8 * deptBudget);
+
     }
 }

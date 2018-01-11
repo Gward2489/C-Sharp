@@ -4,14 +4,19 @@ using System.Linq;
 
 namespace bangazon{
     public class Department{
-        public string departmentName;
-        private string departmentSupervisor;
-        private int numberOfEmployees;
+
+        public double baseBudget = 33000; 
+        public double budget {get; set;} = 0;
+        public string departmentName {get; set;}
+        public string departmentSupervisor {get; set;}
+        private int numberOfEmployees {get; set;}
         public Department (string name, string supervisor, int employeeCount) {
             departmentName = name;
             departmentSupervisor = supervisor;
             numberOfEmployees = employeeCount;
         }
-        
+
+        public virtual void SetBudget(double deptBudget) => this.budget = deptBudget;
+
     }
 }
