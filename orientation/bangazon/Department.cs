@@ -17,6 +17,6 @@ namespace bangazon{
         }
 
         public virtual void SetBudget(double deptBudget) => this.budget = deptBudget;
-
+        
     }
 }

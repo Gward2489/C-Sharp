@@ -27,6 +27,10 @@ namespace bangazon
                 Console.WriteLine($"Budget:{d.budget}");
                 Console.WriteLine(" ");
             }
+
+            Employee jayBob = new Employee("Jay", "Bob");
+
+            string jaysLunchSpot = jayBob.eat(jayBob);
         }
     }
 }
