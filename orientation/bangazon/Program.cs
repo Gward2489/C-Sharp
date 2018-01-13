@@ -29,8 +29,25 @@ namespace bangazon
             }
 
             Employee jayBob = new Employee("Jay", "Bob");
+            Employee joeSchmoe = new Employee("Joe", "Schmoe");
+            Employee danSchman = new Employee("Dan", "Schman");
+            Employee harrisBuchannon = new Employee("Harris", "Buchannon");
+            Employee toddFellows = new Employee("Todd", "Fellows");
+            Employee ronaldCools = new Employee("Ronald", "Cools");
 
-            string jaysLunchSpot = jayBob.eat(jayBob);
+            List<Employee> Employees = new List<Employee>()
+            {
+                jayBob,
+                joeSchmoe,
+                danSchman,
+                harrisBuchannon,
+                toddFellows,
+                ronaldCools
+            };
+
+            string jaysLunchSpot = jayBob.eat();
+            joeSchmoe.eat("Fried Veggies");
+            toddFellows.eat(Employees);
         }
     }
 }

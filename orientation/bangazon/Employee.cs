@@ -24,7 +24,7 @@ namespace bangazon
             this.lastName = last;
         }
 
-        public string eat (Employee lunchEater)
+        public string eat ()
         {
             Random magicNumber = new Random();
             int restaurantChoiceId = magicNumber.Next(0, 6);
@@ -34,12 +34,53 @@ namespace bangazon
                 int index = restaurantOptions.FindIndex(a => a == restaurant);
                 if (index == restaurantChoiceId)
                 {
-                    Console.WriteLine($"{lunchEater.firstName} is eating lunch at {restaurant}");
+                    Console.WriteLine($"{this.firstName} is eating lunch at {restaurant}");
                     lunchSpot = restaurant;
                 }
             }
                 return lunchSpot;
         }
+        public void eat (string lunchItem)
+        {
+            Console.WriteLine($"{this.firstName} ate {lunchItem} at the office today");
+        }
 
+        public void eat (List<Employee> lunchBuddies)
+        {
+            Random magicNumber = new Random();
+            int restaurantChoiceId = magicNumber.Next(0, 6);
+            int iAmTheBuddy = 0;
+            foreach (Employee buddy in lunchBuddies)
+            {
+                if (this.firstName == buddy.firstName && this.lastName == buddy.lastName)
+                {
+                    iAmTheBuddy = lunchBuddies.FindIndex(a => a == buddy);
+                }
+            }
+            lunchBuddies.RemoveAt(iAmTheBuddy);
+            foreach (string restaurant in restaurantOptions)
+            {
+                int index = restaurantOptions.FindIndex(a => a == restaurant);
+                if (index == restaurantChoiceId)
+                {
+                     string buddies = "";
+                     int buddyCount = lunchBuddies.Count - 1;
+                     foreach (Employee buddy in lunchBuddies)
+                     {
+                        int buddyDex = lunchBuddies.FindIndex(a => a == buddy);
+                        if (buddyDex == buddyCount)
+                        {
+                            buddies += $"and {buddy.firstName}";
+                        } else 
+                        {
+                            buddies += $"{buddy.firstName}, ";
+                        }
+                     }
+
+                    Console.WriteLine($"{this.firstName} is eating lunch at {restaurant} with along with {buddies}.");
+
+                }
+            }   
+        }
     }
 }
