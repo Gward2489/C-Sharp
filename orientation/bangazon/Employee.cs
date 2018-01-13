@@ -80,7 +80,6 @@ namespace bangazon
                      }
 
                     Console.WriteLine($"{this.firstName} is eating lunch at {restaurant} along with {buddies}.");
-
                 }
             }   
         }
