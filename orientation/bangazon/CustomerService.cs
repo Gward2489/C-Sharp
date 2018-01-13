@@ -6,6 +6,7 @@ namespace bangazon
 {
     public class CustomerService : Department
     {
+
         public List<Dictionary <string, string>> scripts = new List<Dictionary<string, string>>();
         public CustomerService(string name, string supervisor, int employeeCount) : base(name, supervisor, employeeCount)
         {

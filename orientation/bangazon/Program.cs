@@ -49,6 +49,63 @@ namespace bangazon
             joeSchmoe.eat("Fried Veggies");
             toddFellows.eat(Employees);
             ronaldCools.eat("Mega Combo Deluxe", Employees);
+
+            Console.WriteLine(" ");
+
+            HandicapEmployee BartPhillips = new HandicapEmployee("Bart", "Phillips");
+            HandicapEmployee ToddJefferies = new HandicapEmployee("Todd", "Jefferies");
+            SummerEmployee TiffanyLewis = new SummerEmployee("Tiffany", "Lewis");
+            DayEmployee AndreaSlovjic = new DayEmployee("Andrea", "Slovjic");
+            NightEmployee JesseFortana = new NightEmployee("Jesse", "Fortana");
+            SummerEmployee PipBopkins = new SummerEmployee("Pip", "Bopkins");
+            NightEmployee LilJoe = new NightEmployee("Lil", "Joe");
+            DayEmployee MarthaBudglet = new DayEmployee("Martha", "Budglet");
+
+            marketingDept.AddEmployee(BartPhillips);
+            marketingDept.AddEmployee(TiffanyLewis);
+            marketingDept.AddEmployee(AndreaSlovjic);
+            marketingDept.AddEmployee(JesseFortana);
+            customerServiceDept.AddEmployee(ToddJefferies);
+            customerServiceDept.AddEmployee(PipBopkins);
+            customerServiceDept.AddEmployee(LilJoe);
+            customerServiceDept.AddEmployee(MarthaBudglet);
+            marketingDept.AddEmployee(harrisBuchannon);
+            marketingDept.AddEmployee(danSchman);
+            customerServiceDept.AddEmployee(toddFellows);
+            customerServiceDept.AddEmployee(jayBob);
+
+            foreach (Department d in departments)
+            {
+                Console.WriteLine($"{d.departmentName}:");
+                List<Employee> _employees = d.Employees;
+                foreach (Employee employee in _employees)
+                {
+                    string employeeInfo = $"{employee.firstName} {employee.lastName}";
+                    var hello = employee.GetType();
+                    if (employee.GetType() == typeof(bangazon.HandicapEmployee))
+                    {
+                        employeeInfo += " is currently handicap with a broken arm.";
+                    } 
+                    else if (employee.GetType() == typeof(bangazon.NightEmployee))
+                    {
+                        employeeInfo += " works the night shift.";
+                    }
+                    else if (employee.GetType() == typeof(bangazon.DayEmployee))
+                    {
+                        employeeInfo += " works the day shift.";
+                    }
+                    else if (employee.GetType() == typeof(bangazon.SummerEmployee))
+                    {
+                        employeeInfo += " only works in the summer";
+                    }
+                    else 
+                    {
+                        employeeInfo += " is a regular full time employee.";
+                    }
+                    Console.WriteLine(employeeInfo);
+                }
+                    Console.WriteLine(" ");
+            }    
         }
     }
 }
