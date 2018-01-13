@@ -48,6 +48,7 @@ namespace bangazon
             string jaysLunchSpot = jayBob.eat();
             joeSchmoe.eat("Fried Veggies");
             toddFellows.eat(Employees);
+            ronaldCools.eat("Mega Combo Deluxe", Employees);
         }
     }
 }
